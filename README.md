@@ -9,7 +9,7 @@ A PHP library and command-line tool that can be used to control WiZ Wi-Fi light 
 1. Download [wizard-cli](https://github.com/AMDBartek/WiZard/releases/latest/download/wizard-cli) and place it in your PATH.
 2. Make sure the file is executable (`chmod +x wizard-cli`).
 3. Ensure that your device has a PHP installation with the `sockets` extension enabled (e.g., by running `php -m | grep sockets`).
-4. Run `wizard-cli help` to see available commands.
+4. Run `wizard-cli help` to see available commands. On Windows, you may need to preface the command with `php` as such: `php wizard-cli` if it does not support shebang lines.
 5. Enjoy!
 
 ## Installation and Usage (PHP, developer)
