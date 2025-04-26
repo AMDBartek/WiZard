@@ -1,7 +1,7 @@
 <?php
 
 /*
-WiZard CLI - Command Line Interface for WiZ smart bulbs: A PHP tool that can be used to control WiZ Wi-Fi light bulbs over LAN without using the proprietary Android app or official cloud API.
+WiZard CLI - Command Line Interface for WiZ smart bulbs: A PHP tool that can be used to control WiZ Wi-Fi light bulbs over LAN without using the proprietary mobile app or official cloud API.
 by AMDBartek
 
 License: MIT
@@ -49,6 +49,12 @@ if ($argc < 2) {
 
 // Get the IP address and command from the arguments
 $ip = $argv[1];
+
+// Help command
+if (str_contains(strtolower((string)$ip), "help")) {
+    help();
+}
+
 $command = $argv[2];
 if ($argc > 3) {
     $value = $argv[3];

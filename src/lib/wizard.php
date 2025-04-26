@@ -1,7 +1,7 @@
 <?php
 
 /*
-WiZard: A PHP library that can be used to control WiZ Wi-Fi light bulbs over LAN without using the proprietary Android app or official cloud API.
+WiZard: A PHP library that can be used to control WiZ Wi-Fi light bulbs over LAN without using the proprietary mobile app or official cloud API.
 by AMDBartek
 
 License: MIT
