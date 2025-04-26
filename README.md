@@ -1,8 +1,6 @@
-<div style="float: right;">
-  <img src="assets/images/wizard_logo.png" width="140px" height="280px">
-</div>
-
 # WiZard
+
+<img src="assets/images/wizard_logo.png" width="140px" height="280px">
 
 A PHP library and command-line tool that can be used to control WiZ Wi-Fi light bulbs over LAN without using the proprietary Android app or official cloud API. It has been tested on Linux systems only, however it should work on other operating systems as well, for example *BSD, Windows, macOS, etc.
 
