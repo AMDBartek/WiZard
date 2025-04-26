@@ -1,0 +1,18 @@
+<div style="float: right; margin-left: 20px;">
+  <img src="assets/images/wizard_logo.png" width="140px" height="280px">
+</div>
+
+# WiZard
+
+A PHP library and command-line tool that can be used to control WiZ Wi-Fi light bulbs over LAN without using the proprietary Android app or official cloud API. It has been tested on Linux systems only, however it should work on other operating systems as well, for example *BSD, Windows, macOS, etc.
+
+## Installation and Usage (CLI, end user)
+
+1. Download [wizard-cli](https://github.com/AMDBartek/WiZard/releases/latest/download/wizard-cli) and place it in your PATH.
+2. Make sure the file is executable (`chmod +x wizard-cli`).
+3. Ensure that your device has a PHP installation with the `sockets` extension enabled (e.g., by running `php -m | grep sockets`).
+4. Run `wizard help` to see available commands.
+5. Enjoy!
+
+## Installation and Usage (PHP, developer)
+TODO: Write docs and upload to Packagist

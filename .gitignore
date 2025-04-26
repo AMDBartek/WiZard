@@ -1,0 +1,5 @@
+# Exclude build
+/build
+
+# Exclude Composer (vendor)
+/vendor

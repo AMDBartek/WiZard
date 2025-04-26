@@ -1,0 +1,20 @@
+{
+    "name": "amdbartek/wizard",
+    "description": "WiZard: A PHP library that can be used to control WiZ Wi-Fi light bulbs over LAN without using the proprietary Android app or official cloud API.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+        "src/lib/wizard.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Bartek Wreczycki",
+            "email": "monobartek@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "prefer-stable": true
+}
