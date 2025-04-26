@@ -1,4 +1,4 @@
-<div style="align: right;">
+<div style="float: right;">
   <img src="assets/images/wizard_logo.png" width="140px" height="280px">
 </div>
 
